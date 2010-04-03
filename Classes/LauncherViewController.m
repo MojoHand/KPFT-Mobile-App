@@ -43,9 +43,13 @@
 							[[[TTLauncherItem alloc] initWithTitle:@"News"
 															 image:@"bundle://rss.png"
 															   URL:@"kpft://newsfeed" canDelete:NO] autorelease],
+							//[[[TTLauncherItem alloc] initWithTitle:@"Program Schedule"
+//															 image:@"bundle://calendar2.png"
+//															   URL:@"http://kpft.org/index.php?view=article&catid=35:programming&id=47:program-schedule&tmpl=component&print=1&layout=default&page=&option=com_content&Itemid=60" 
+//														 canDelete:NO] autorelease],
 							[[[TTLauncherItem alloc] initWithTitle:@"Program Schedule"
 															 image:@"bundle://calendar2.png"
-															   URL:@"http://kpft.org/index.php?view=article&catid=35:programming&id=47:program-schedule&tmpl=component&print=1&layout=default&page=&option=com_content&Itemid=60" 
+															   URL:@"kpft://programSchedule" 
 														 canDelete:NO] autorelease],
 							[[[TTLauncherItem alloc] initWithTitle:@"Concert Calendar"
 															 image:@"bundle://30x-Calendar-Week.png"

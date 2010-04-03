@@ -10,6 +10,7 @@
 #import "LauncherViewController.h"
 #import "FeedsViewController.h"
 #import "AboutViewController.h"
+#import "ScheduleController.h"
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -36,6 +37,8 @@
 	[map from:@"kpft://launcher" toViewController:[LauncherViewController class]];
 	[map from:@"kpft://newsfeed" toViewController:fvController];
 	[map from:@"kpft://about" toViewController:avController];
+	[map from:@"kpft://programShedule" toViewController:[ScheduleController class]];
+
 	
 	[navigator openURLAction:[TTURLAction actionWithURLPath:@"kpft://launcher"]];
 }
