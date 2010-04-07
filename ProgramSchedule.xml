@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Schedule>
+	<Monday>
+		<show>
+			<time>
+				<start>6:00</start>
+				<end>6:30</end>
+			</time>
+			<title>Her Sex, Her Health</title>
+		</show>
+		<show>
+			<time>
+				<start>6:30</start>
+				<end>7:00</end>
+			</time>
+			<title>Whole Mother</title>
+		</show>
+		<show>
+			<time>
+				<start>7:00</start>
+				<end>8:00</end>
+			</time>
+			<title>BBC Newshour</title>
+		</show>
+		<show>
+			<time>
+				<start>8:00</start>
+				<end>9:00</end>
+			</time>
+			<title>Democracy Now!</title>
+		</show>
+		<show>
+			<time>
+				<start>9:00</start>
+				<end>10:00</end>
+			</time>
+			<title>Open Journal</title>
+		</show>
+		<show>
+			<time>
+				<start>10:00</start>
+				<end>12:00</end>
+			</time>
+			<title>Wide Open Spaces</title>
+		</show>		
+		<show>
+			<time>
+				<start>12:00</start>
+				<end>13:00</end>
+			</time>
+			<title>World Cafe</title>
+		</show>
+		<show>
+			<time>
+				<start>13:00</start>
+				<end>15:00</end>
+			</time>
+			<title>Music Without Borders</title>
+		</show>
+		<show>
+			<time>
+				<start>15:00</start>
+				<end>16:00</end>
+			</time>
+			<title>Growing Up in America</title>
+		</show>
+		<show>
+			<time>
+				<start>16:00</start>
+				<end>16:30</end>
+			</time>
+			<title>Free Speech Radio News</title>
+		</show>
+		<show>
+			<time>
+				<start>16:30</start>
+				<end>17:00</end>
+			</time>
+			<title>KPFT Local News</title>
+		</show>
+		<show>
+			<time>
+				<start>17:00</start>
+				<end>18:00</end>
+			</time>
+			<title>Democracy Now!</title>
+		</show>
+		<show>
+			<time>
+				<start>18:00</start>
+				<end>19:00</end>
+			</time>
+			<title>This American Life</title>
+		</show>
+		<show>
+			<time>
+				<start>19:00</start>
+				<end>20:00</end>
+			</time>
+			<title>The Monitor</title>
+		</show>
+		<show>
+			<time>
+				<start>20:00</start>
+				<end>21:00</end>
+			</time>
+			<title>Interchange</title>
+		</show>
+		<show>
+			<time>
+				<start>21:00</start>
+				<end>23:00</end>
+			</time>
+			<title>Queer Voices</title>
+		</show>
+		<show>
+			<time>
+				<start>23:30</start>
+				<end>2:00</end>
+			</time>
+			<title>Pure Vibz</title>
+		</show>
+		<show>
+			<time>
+				<start>2:00</start>
+				<end>5:00</end>
+			</time>
+			<title>Down the Highway</title>
+		</show>
+		<show>
+			<time>
+				<start>5:00</start>
+				<end>5:30</end>
+			</time>
+			<title>Whole Mother</title>
+		</show>
+		<string>Pacifica Radio Archives</string>
+	</Monday>
+</Schedule>
