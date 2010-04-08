@@ -115,7 +115,7 @@
 		</show>
 		<show>
 			<time>
-				<start>23:30</start>
+				<start>23:00</start>
 				<end>2:00</end>
 			</time>
 			<title>Pure Vibz</title>
@@ -132,8 +132,640 @@
 				<start>5:00</start>
 				<end>5:30</end>
 			</time>
-			<title>Whole Mother</title>
+			<title>BBC News</title>
 		</show>
-		<string>Pacifica Radio Archives</string>
+		<show>
+			<time>
+				<start>5:30</start>
+				<end>6:00</end>
+			</time>
+			<title>Pacifica Radio Archives</title>
+		</show>
 	</Monday>
+	<Tuesday>
+		<show>
+			<time>
+				<start>6:00</start>
+				<end>7:00</end>
+			</time>
+			<title>People of Earth</title>
+		</show>
+		<show>
+			<time>
+				<start>7:00</start>
+				<end>8:00</end>
+			</time>
+			<title>BBC Newshour</title>
+		</show>
+		<show>
+			<time>
+				<start>8:00</start>
+				<end>9:00</end>
+			</time>
+			<title>Democracy Now!</title>
+		</show>
+		<show>
+			<time>
+				<start>9:00</start>
+				<end>10:00</end>
+			</time>
+			<title>Open Journal</title>
+		</show>
+		<show>
+			<time>
+				<start>10:00</start>
+				<end>12:00</end>
+			</time>
+			<title>Wide Open Spaces</title>
+		</show>		
+		<show>
+			<time>
+				<start>12:00</start>
+				<end>13:00</end>
+			</time>
+			<title>World Cafe</title>
+		</show>
+		<show>
+			<time>
+				<start>13:00</start>
+				<end>15:00</end>
+			</time>
+			<title>Sound Awake</title>
+		</show>
+		<show>
+			<time>
+				<start>15:00</start>
+				<end>16:00</end>
+			</time>
+			<title>Earth 101</title>
+		</show>
+		<show>
+			<time>
+				<start>16:00</start>
+				<end>16:30</end>
+			</time>
+			<title>Free Speech Radio News</title>
+		</show>
+		<show>
+			<time>
+				<start>16:30</start>
+				<end>17:00</end>
+			</time>
+			<title>KPFT Local News</title>
+		</show>
+		<show>
+			<time>
+				<start>17:00</start>
+				<end>18:00</end>
+			</time>
+			<title>Democracy Now!</title>
+		</show>
+		<show>
+			<time>
+				<start>18:00</start>
+				<end>19:00</end>
+			</time>
+			<title>Explorations</title>
+		</show>
+		<show>
+			<time>
+				<start>19:00</start>
+				<end>19:30</end>
+			</time>
+			<title>Coming to America</title>
+		</show>
+		<show>
+			<time>
+				<start>19:30</start>
+				<end>20:30</end>
+			</time>
+			<title>Nuestra Palabra</title>
+		</show>
+		<show>
+			<time>
+				<start>20:30</start>
+				<end>21:00</end>
+			</time>
+			<title>Noticiero</title>
+		</show>
+		<show>
+			<time>
+				<start>21:00</start>
+				<end>22:00</end>
+			</time>
+			<title>Proyecto Latino Americano</title>
+		</show>
+		<show>
+			<time>
+				<start>22:00</start>
+				<end>23:00</end>
+			</time>
+			<title>Son Pacifica</title>
+		</show>
+		<show>
+			<time>
+				<start>23:00</start>
+				<end>2:00</end>
+			</time>
+			<title>Reach Out In the Darkness</title>
+		</show>
+		<show>
+			<time>
+				<start>2:00</start>
+				<end>5:00</end>
+			</time>
+			<title>Voz de la Tierra</title>
+		</show>
+		<show>
+			<time>
+				<start>5:00</start>
+				<end>5:30</end>
+			</time>
+			<title>BBC News</title>
+		</show>
+		<show>
+			<time>
+				<start>5:30</start>
+				<end>6:00</end>
+			</time>
+			<title>Pacifica Radio Archives</title>
+		</show>
+	</Tuesday>
+	<Wednesday>
+		<show>
+			<time>
+				<start>6:00</start>
+				<end>7:00</end>
+			</time>
+			<title>Eco-Ology</title>
+		</show>
+		<show>
+			<time>
+				<start>7:00</start>
+				<end>8:00</end>
+			</time>
+			<title>BBC Newshour</title>
+		</show>
+		<show>
+			<time>
+				<start>8:00</start>
+				<end>9:00</end>
+			</time>
+			<title>Democracy Now!</title>
+		</show>
+		<show>
+			<time>
+				<start>9:00</start>
+				<end>10:00</end>
+			</time>
+			<title>Open Journal</title>
+		</show>
+		<show>
+			<time>
+				<start>10:00</start>
+				<end>12:00</end>
+			</time>
+			<title>Wide Open Spaces</title>
+		</show>		
+		<show>
+			<time>
+				<start>12:00</start>
+				<end>13:00</end>
+			</time>
+			<title>World Cafe</title>
+		</show>
+		<show>
+			<time>
+				<start>13:00</start>
+				<end>15:00</end>
+			</time>
+			<title>SOS Radio</title>
+		</show>
+		<show>
+			<time>
+				<start>15:00</start>
+				<end>16:00</end>
+			</time>
+			<title>Connect the Dots</title>
+		</show>
+		<show>
+			<time>
+				<start>16:00</start>
+				<end>16:30</end>
+			</time>
+			<title>Free Speech Radio News</title>
+		</show>
+		<show>
+			<time>
+				<start>16:30</start>
+				<end>17:00</end>
+			</time>
+			<title>KPFT Local News</title>
+		</show>
+		<show>
+			<time>
+				<start>17:00</start>
+				<end>18:00</end>
+			</time>
+			<title>Democracy Now!</title>
+		</show>
+		<show>
+			<time>
+				<start>18:00</start>
+				<end>19:00</end>
+			</time>
+			<title>Uprising</title>
+		</show>
+		<show>
+			<time>
+				<start>19:00</start>
+				<end>20:00</end>
+			</time>
+			<title>Arab Voices</title>
+		</show>
+		<show>
+			<time>
+				<start>20:00</start>
+				<end>22:00</end>
+			</time>
+			<title>Technology Bytes</title>
+		</show>
+		<show>
+			<time>
+				<start>22:00</start>
+				<end>23:00</end>
+			</time>
+			<title>Vegan World Radio</title>
+		</show>
+		<show>
+			<time>
+				<start>23:00</start>
+				<end>2:00</end>
+			</time>
+			<title>Damage Control</title>
+		</show>
+		<show>
+			<time>
+				<start>2:00</start>
+				<end>5:00</end>
+			</time>
+			<title>The Groove</title>
+		</show>
+		<show>
+			<time>
+				<start>5:00</start>
+				<end>5:30</end>
+			</time>
+			<title>BBC News</title>
+		</show>
+		<show>
+			<time>
+				<start>5:30</start>
+				<end>6:00</end>
+			</time>
+			<title>Pacifica Radio Archives</title>
+		</show>
+	</Wednesday>
+	<Thursday>
+		<show>
+			<time>
+				<start>6:00</start>
+				<end>7:00</end>
+			</time>
+			<title>Thresholds</title>
+		</show>
+		<show>
+			<time>
+				<start>7:00</start>
+				<end>8:00</end>
+			</time>
+			<title>BBC Newshour</title>
+		</show>
+		<show>
+			<time>
+				<start>8:00</start>
+				<end>9:00</end>
+			</time>
+			<title>Democracy Now!</title>
+		</show>
+		<show>
+			<time>
+				<start>9:00</start>
+				<end>10:00</end>
+			</time>
+			<title>Open Journal</title>
+		</show>
+		<show>
+			<time>
+				<start>10:00</start>
+				<end>12:00</end>
+			</time>
+			<title>Wide Open Spaces</title>
+		</show>		
+		<show>
+			<time>
+				<start>12:00</start>
+				<end>13:00</end>
+			</time>
+			<title>World Cafe</title>
+		</show>
+		<show>
+			<time>
+				<start>13:00</start>
+				<end>15:00</end>
+			</time>
+			<title>World Music Express</title>
+		</show>
+		<show>
+			<time>
+				<start>15:00</start>
+				<end>16:00</end>
+			</time>
+			<title>The New Capital Show</title>
+		</show>
+		<show>
+			<time>
+				<start>16:00</start>
+				<end>16:30</end>
+			</time>
+			<title>Free Speech Radio News</title>
+		</show>
+		<show>
+			<time>
+				<start>16:30</start>
+				<end>17:00</end>
+			</time>
+			<title>KPFT Local News</title>
+		</show>
+		<show>
+			<time>
+				<start>17:00</start>
+				<end>18:00</end>
+			</time>
+			<title>Democracy Now!</title>
+		</show>
+		<show>
+			<time>
+				<start>18:00</start>
+				<end>19:00</end>
+			</time>
+			<title>Alternative Radio</title>
+		</show>
+		<show>
+			<time>
+				<start>19:00</start>
+				<end>21:00</end>
+			</time>
+			<title>Progressive Forum</title>
+		</show>
+		<show>
+			<time>
+				<start>21:00</start>
+				<end>22:30</end>
+			</time>
+			<title>The Other Side</title>
+		</show>
+		<show>
+			<time>
+				<start>22:30</start>
+				<end>23:00</end>
+			</time>
+			<title>Inner Side</title>
+		</show>
+		<show>
+			<time>
+				<start>23:00</start>
+				<end>2:00</end>
+			</time>
+			<title>Laurapalooza</title>
+		</show>
+		<show>
+			<time>
+				<start>2:00</start>
+				<end>5:00</end>
+			</time>
+			<title>Ejacula</title>
+		</show>
+		<show>
+			<time>
+				<start>5:00</start>
+				<end>5:30</end>
+			</time>
+			<title>BBC News</title>
+		</show>
+		<show>
+			<time>
+				<start>5:30</start>
+				<end>6:00</end>
+			</time>
+			<title>Pacifica Radio Archives</title>
+		</show>
+	</Thursday>
+	<Friday>
+		<show>
+			<time>
+				<start>6:00</start>
+				<end>7:00</end>
+			</time>
+			<title>LivingArt</title>
+		</show>
+		<show>
+			<time>
+				<start>7:00</start>
+				<end>8:00</end>
+			</time>
+			<title>BBC Newshour</title>
+		</show>
+		<show>
+			<time>
+				<start>8:00</start>
+				<end>9:00</end>
+			</time>
+			<title>Democracy Now!</title>
+		</show>
+		<show>
+			<time>
+				<start>9:00</start>
+				<end>10:00</end>
+			</time>
+			<title>Open Journal</title>
+		</show>
+		<show>
+			<time>
+				<start>10:00</start>
+				<end>12:00</end>
+			</time>
+			<title>Wide Open Spaces</title>
+		</show>		
+		<show>
+			<time>
+				<start>12:00</start>
+				<end>13:00</end>
+			</time>
+			<title>World Cafe</title>
+		</show>
+		<show>
+			<time>
+				<start>13:00</start>
+				<end>15:00</end>
+			</time>
+			<title>RadioActive</title>
+		</show>
+		<show>
+			<time>
+				<start>15:00</start>
+				<end>16:00</end>
+			</time>
+			<title>Partisan Gridlock</title>
+		</show>
+		<show>
+			<time>
+				<start>16:00</start>
+				<end>16:30</end>
+			</time>
+			<title>Free Speech Radio News</title>
+		</show>
+		<show>
+			<time>
+				<start>16:30</start>
+				<end>17:00</end>
+			</time>
+			<title>KPFT Local News</title>
+		</show>
+		<show>
+			<time>
+				<start>17:00</start>
+				<end>18:00</end>
+			</time>
+			<title>Democracy Now!</title>
+		</show>
+		<show>
+			<time>
+				<start>18:00</start>
+				<end>19:00</end>
+			</time>
+			<title>If You Love This Planet</title>
+		</show>
+		<show>
+			<time>
+				<start>19:00</start>
+				<end>19:30</end>
+			</time>
+			<title>Human Rights Show</title>
+		</show>
+		<show>
+			<time>
+				<start>19:30</start>
+				<end>20:00</end>
+			</time>
+			<title>Houston IMC</title>
+		</show>
+		<show>
+			<time>
+				<start>20:00</start>
+				<end>21:00</end>
+			</time>
+			<title>Voices At Work</title>
+		</show>
+		<show>
+			<time>
+				<start>21:00</start>
+				<end>23:00</end>
+			</time>
+			<title>The Prison</title>
+		</show>
+		<show>
+			<time>
+				<start>23:00</start>
+				<end>01:00</end>
+			</time>
+			<title>Moontower Radio</title>
+		</show>
+		<show>
+			<time>
+				<start>1:00</start>
+				<end>4:00</end>
+			</time>
+			<title>Pat & Rosie's Nightsounds</title>
+		</show>
+		<show>
+			<time>
+				<start>4:00</start>
+				<end>6:00</end>
+			</time>
+			<title>Lee Dibala Show</title>
+		</show>
+	</Friday>
+	<Saturday>
+		<show>
+			<time>
+				<start>6:00</start>
+				<end>9:00</end>
+			</time>
+			<title>Cajun Bandstand</title>
+		</show>
+		<show>
+			<time>
+				<start>9:00</start>
+				<end>12:00</end>
+			</time>
+			<title>Lonestar Jukebox</title>
+		</show>
+		<show>
+			<time>
+				<start>12:00</start>
+				<end>15:00</end>
+			</time>
+			<title>Spare Change</title>
+		</show>
+		<show>
+			<time>
+				<start>15:00</start>
+				<end>18:00</end>
+			</time>
+			<title>Deadbeat</title>
+		</show>
+		<show>
+			<time>
+				<start>18:00</start>
+				<end>19:00</end>
+			</time>
+			<title>Irish Aires</title>
+		</show>		
+		<show>
+			<time>
+				<start>19:00</start>
+				<end>21:00</end>
+			</time>
+			<title>Bailando en Tejas</title>
+		</show>
+		<show>
+			<time>
+				<start>21:00</start>
+				<end>21:30</end>
+			</time>
+			<title>Youth Show</title>
+		</show>
+		<show>
+			<time>
+				<start>21:30</start>
+				<end>0:00</end>
+			</time>
+			<title>Soular Grooves</title>
+		</show>
+		<show>
+			<time>
+				<start>0:00</start>
+				<end>4:00</end>
+			</time>
+			<title>After Hours</title>
+		</show>
+		<show>
+			<time>
+				<start>4:00</start>
+				<end>6:00</end>
+			</time>
+			<title>Zydeco Pas Salé</title>
+		</show>
+	</Saturday>
 </Schedule>
