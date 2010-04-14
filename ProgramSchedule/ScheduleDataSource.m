@@ -8,51 +8,49 @@
 //
 
 #import "ScheduleDataSource.h"
-
+#import "ScheduleModel.h"
 
 @implementation ScheduleDataSource
 
-@end
-//===================================================================================================
+//==================================================================================================
 
-//(void)load:(TTURLRequestCachePolicy)cachePolicy nextPage:(BOOL)nextPage 
-//{
-//	TTURLRequest *request =
-//	[TTURLRequest requestWithURL:@"http://kpft.org/ProgramSchedule.xml" delegate:self];
-//	
-//	request.cachePolicy = cachePolicy;
-//	request.response = [[[TTURLDataResponse alloc] init] autorelease];
-//	request.httpMethod = @"GET";
-//	[request send];
-//}
-//
-////===================================================================================================
-//
-//- (void)requestDidFinishLoad:(TTURLRequest*)request 
-//{
-//	TTURLDataResponse *response = request.response;
-//	NSString *json = [[NSString alloc] initWithData:response.data encoding:NSUTF8StringEncoding];
-//	
-//	// Load up self.items with json data however you'd like
-//	
-//	[json release];
-//	
-//	_loading = NO;
-//	_loaded = YES;  
-//	
-//	[self dataSourceDidFinishLoad];
-//}
-//
-////===================================================================================================
-//
-//- (void)request:(TTURLRequest*)request didFailLoadWithError:(NSError*)error 
-//{
-//	_loading = NO;
-//	_loaded = YES;
-//	[self dataSourceDidFailLoadWithError:error];
-//}
-//
-////===================================================================================================
-//
-//
-//@end
+- (id)init
+{
+	scheduleModel = [[ScheduleModel alloc] init];
+	
+	return self;
+}
+
+//==================================================================================================
+
+- (void)dealloc 
+{
+	TT_RELEASE_SAFELY(scheduleModel);
+	
+	[super dealloc];
+}
+
+//==================================================================================================
+
+- (id<TTModel>)model 
+{
+	return scheduleModel;
+}
+
+//==================================================================================================
+
+- (void)tableViewDidLoadModel:(UITableView*)tableView 
+{
+	NSMutableArray* items = [[NSMutableArray alloc] init];
+	
+	self.items = items;
+	
+	NSLog(@"Properties: %@", scheduleModel.properties);
+	
+	
+	TT_RELEASE_SAFELY(items);
+}
+
+//==================================================================================================
+
+@end

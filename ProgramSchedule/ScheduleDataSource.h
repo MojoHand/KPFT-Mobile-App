@@ -4,13 +4,13 @@
 //
 //  Created by Nathan King of Mojo Hand Development
 //
-//	Thanks to Mark at reventkn.com
 
-@interface ScheduleDataSource : TTListDataSource<TTURLRequestDelegate> 
+
+@class ScheduleModel; 
+
+@interface ScheduleDataSource : TTListDataSource
 {
-	@private
-		BOOL _loading;
-		BOOL _loaded;
+	ScheduleModel* scheduleModel;
 }
 
 

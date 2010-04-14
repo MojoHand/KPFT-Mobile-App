@@ -40,6 +40,7 @@
 		D8A2658A1166E22E006D2D23 /* CTidy.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A2657E1166E22E006D2D23 /* CTidy.m */; };
 		D8A265AA1166E476006D2D23 /* ScheduleController.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A265A91166E476006D2D23 /* ScheduleController.m */; };
 		D8A265E01166EAD1006D2D23 /* ScheduleDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A265DF1166EAD1006D2D23 /* ScheduleDataSource.m */; };
+		D8A26716116E5E5E006D2D23 /* ScheduleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D8A26715116E5E5E006D2D23 /* ScheduleModel.m */; };
 		EB383B6110BBF6200000B2D2 /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB383B5F10BBF6180000B2D2 /* libThree20.a */; };
 		EB383B6510BBF62B0000B2D2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EB383B6410BBF62B0000B2D2 /* QuartzCore.framework */; };
 		EB383B6D10BBF6360000B2D2 /* Three20.bundle in Resources */ = {isa = PBXBuildFile; fileRef = EB383B6C10BBF6360000B2D2 /* Three20.bundle */; };
@@ -129,6 +130,8 @@
 		D8A265A91166E476006D2D23 /* ScheduleController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScheduleController.m; path = ProgramSchedule/ScheduleController.m; sourceTree = "<group>"; };
 		D8A265DE1166EAD1006D2D23 /* ScheduleDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleDataSource.h; path = ProgramSchedule/ScheduleDataSource.h; sourceTree = "<group>"; };
 		D8A265DF1166EAD1006D2D23 /* ScheduleDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScheduleDataSource.m; path = ProgramSchedule/ScheduleDataSource.m; sourceTree = "<group>"; };
+		D8A26714116E5E5E006D2D23 /* ScheduleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleModel.h; path = ProgramSchedule/ScheduleModel.h; sourceTree = "<group>"; };
+		D8A26715116E5E5E006D2D23 /* ScheduleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScheduleModel.m; path = ProgramSchedule/ScheduleModel.m; sourceTree = "<group>"; };
 		EB383B5710BBF6180000B2D2 /* Three20.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20.xcodeproj; path = ../three20/src/Three20.xcodeproj; sourceTree = SOURCE_ROOT; };
 		EB383B6410BBF62B0000B2D2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		EB383B6C10BBF6360000B2D2 /* Three20.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Three20.bundle; path = ../three20/src/Three20.bundle; sourceTree = SOURCE_ROOT; };
@@ -307,6 +310,8 @@
 				D8A265A91166E476006D2D23 /* ScheduleController.m */,
 				D8A265DE1166EAD1006D2D23 /* ScheduleDataSource.h */,
 				D8A265DF1166EAD1006D2D23 /* ScheduleDataSource.m */,
+				D8A26714116E5E5E006D2D23 /* ScheduleModel.h */,
+				D8A26715116E5E5E006D2D23 /* ScheduleModel.m */,
 			);
 			name = ProgramSchedule;
 			sourceTree = "<group>";
@@ -430,6 +435,7 @@
 				D8A2658A1166E22E006D2D23 /* CTidy.m in Sources */,
 				D8A265AA1166E476006D2D23 /* ScheduleController.m in Sources */,
 				D8A265E01166EAD1006D2D23 /* ScheduleDataSource.m in Sources */,
+				D8A26716116E5E5E006D2D23 /* ScheduleModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

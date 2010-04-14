@@ -12,7 +12,7 @@
 {
 	if (self = [super init]) 
 	{
-		self.title = @"KPFT";
+		self.title = @"KPFT";	
 		self.navigationItem.backBarButtonItem = 
 		[[[UIBarButtonItem alloc] initWithTitle:@"Back" 
 										  style:UIBarButtonItemStyleBordered 

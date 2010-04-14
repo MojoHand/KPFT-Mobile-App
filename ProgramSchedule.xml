@@ -1,5 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Schedule>
+	<Sunday>
+		<show>
+			<time>
+				<start>6:00</start>
+				<end>8:00</end>
+			</time>
+			<title>Redeye Special</title>
+		</show>
+		<show>
+			<time>
+				<start>8:00</start>
+				<end>11:00</end>
+			</time>
+			<title>Blues on the Move</title>
+		</show>
+		<show>
+			<time>
+				<start>11:00</start>
+				<end>14:00</end>
+			</time>
+			<title>Blues Brunch</title>
+		</show>
+		<show>
+			<time>
+				<start>12:00</start>
+				<end>16:00</end>
+			</time>
+			<title>Howlin' the Blues</title>
+		</show>
+		<show>
+			<time>
+				<start>16:00</start>
+				<end>18:00</end>
+			</time>
+			<title>Bluegrass Zone</title>
+		</show>		
+		<show>
+			<time>
+				<start>18:00</start>
+				<end>18:30</end>
+			</time>
+			<title>Haam Radio Presents</title>
+		</show>
+		<show>
+			<time>
+				<start>18:30</start>
+				<end>19:00</end>
+			</time>
+			<title>Cultural Baggage</title>
+		</show>
+		<show>
+			<time>
+				<start>19:00</start>
+				<end>19:30</end>
+			</time>
+			<title>Century of Lies</title>
+		</show>
+		<show>
+			<time>
+				<start>19:30</start>
+				<end>20:00</end>
+			</time>
+			<title>SisterSpace</title>
+		</show>
+		<show>
+			<time>
+				<start>20:00</start>
+				<end>21:00</end>
+			</time>
+			<title>Pan African Journal</title>
+		</show>
+		<show>
+			<time>
+				<start>21:00</start>
+				<end>23:00</end>
+			</time>
+			<title>Self-Determination</title>
+		</show>
+		<show>
+			<time>
+				<start>23:00</start>
+				<end>0:00</end>
+			</time>
+			<title>Community Dialogue</title>
+		</show>
+		<show>
+			<time>
+				<start>0:00</start>
+				<end>2:00</end>
+			</time>
+			<title>Songlines</title>
+		</show>
+		<show>
+			<time>
+				<start>2:00</start>
+				<end>5:00</end>
+			</time>
+			<title>Self-Determination</title>
+		</show>
+		<show>
+			<time>
+				<start>5:00</start>
+				<end>5:30</end>
+			</time>
+			<title>BBC News</title>
+		</show>
+		<show>
+			<time>
+				<start>5:30</start>
+				<end>6:00</end>
+			</time>
+			<title>Pacifica Radio Archives</title>
+		</show>
+	</Sunday>
 	<Monday>
 		<show>
 			<time>
@@ -686,7 +800,7 @@
 				<start>1:00</start>
 				<end>4:00</end>
 			</time>
-			<title>Pat & Rosie's Nightsounds</title>
+			<title>Pat and Rosie's Nightsounds</title>
 		</show>
 		<show>
 			<time>
@@ -765,7 +879,7 @@
 				<start>4:00</start>
 				<end>6:00</end>
 			</time>
-			<title>Zydeco Pas Salé</title>
+			<title>Zydeco Pas Sale</title>
 		</show>
 	</Saturday>
 </Schedule>
