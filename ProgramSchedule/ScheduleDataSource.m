@@ -43,11 +43,26 @@
 {
 	NSMutableArray* items = [[NSMutableArray alloc] init];
 	
+	//NSLog(@"Properties: %@", scheduleModel.properties);
+	
+	//NSMutableArray* itemRows = [[NSMutableArray alloc] init];
+	
+	
+	//[items addObject:@"Sunday"];
+	[items addObject:[TTTableTextItem itemWithText:@"Sunday" ]];
+	[items addObject:[TTTableTextItem itemWithText:@"Monday"]];
+	[items addObject:[TTTableTextItem itemWithText:@"Tuesday"]];
+	[items addObject:[TTTableTextItem itemWithText:@"Wednesday"]];
+	[items addObject:[TTTableTextItem itemWithText:@"Thursday"]];
+	[items addObject:[TTTableTextItem itemWithText:@"Friday"]];
+	[items addObject:[TTTableTextItem itemWithText:@"Saturday"]];
+	
+	//[items addObject:itemRows];
+    
+	//TT_RELEASE_SAFELY(itemRows);
+
 	self.items = items;
-	
-	NSLog(@"Properties: %@", scheduleModel.properties);
-	
-	
+		
 	TT_RELEASE_SAFELY(items);
 }
 

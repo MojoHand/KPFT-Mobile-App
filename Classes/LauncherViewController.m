@@ -97,7 +97,9 @@
 - (void)launcherView:(TTLauncherView*)launcher didSelectItem:(TTLauncherItem*)item 
 {
 	//[item ]
-	[[TTNavigator navigator] openURL:[item URL] animated:NO];	
+	//[[TTNavigator navigator] openURL:[item URL] animated:NO];
+	[[TTNavigator navigator] openURLAction:[[TTURLAction actionWithURLPath:[item URL]] applyAnimated:YES]];
+	
 }
 
 - (void)launcherViewDidBeginEditing:(TTLauncherView*)launcher 
