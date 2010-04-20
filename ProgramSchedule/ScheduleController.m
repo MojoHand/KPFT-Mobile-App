@@ -15,8 +15,18 @@
 - (id)init 
 {
 	self = [super init];
-	
-	
+
+	self.dataSource = [TTListDataSource dataSourceWithObjects:
+					   [TTTableTextItem itemWithText:@"Sunday" URL:@"kpft://programSchedule/Sunday" ],
+					   [TTTableTextItem itemWithText:@"Monday" URL:@"kpft://programSchedule/Monday" ],
+					   [TTTableTextItem itemWithText:@"Tuesday" URL:@"kpft://programSchedule/Tuesday" ],
+					   [TTTableTextItem itemWithText:@"Wednesday" URL:@"kpft://programSchedule/Wednesday" ],
+					   [TTTableTextItem itemWithText:@"Thursday" URL:@"kpft://programSchedule/Thursday" ],
+					   [TTTableTextItem itemWithText:@"Friday" URL:@"kpft://programSchedule/Friday" ],
+					   [TTTableTextItem itemWithText:@"Saturday" URL:@"kpft://programSchedule/Saturday" ],
+					   nil];
+							
+			
 	return self;
 }
 
@@ -29,11 +39,11 @@
 
 //======================================================================================================
 
-- (void)createModel 
-{
-	self.dataSource = [[[ScheduleDataSource alloc] init]
-					   autorelease];
-}
+//- (void)createModel 
+//{
+//	self.dataSource = [[[ScheduleDataSource alloc] init]
+//					   autorelease];
+//}
 
 //======================================================================================================
 

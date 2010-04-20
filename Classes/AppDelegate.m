@@ -11,6 +11,7 @@
 #import "FeedsViewController.h"
 #import "AboutViewController.h"
 #import "ScheduleController.h"
+#import "ScheduleDayController.h"
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -38,7 +39,7 @@
 	[map from:@"kpft://newsfeed" toViewController:fvController];
 	[map from:@"kpft://about" toViewController:avController];
 	[map from:@"kpft://programSchedule" toViewController:[ScheduleController class]];
-
+	[map from:@"kpft://programSchedule/(initWithDay:)" toViewController:[ScheduleDayController class]];
 	
 	[navigator openURLAction:[TTURLAction actionWithURLPath:@"kpft://launcher"]];
 }
