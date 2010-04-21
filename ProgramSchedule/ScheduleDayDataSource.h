@@ -12,6 +12,9 @@
 @interface ScheduleDayDataSource : TTListDataSource
 {
 	ScheduleDayModel* scheduleDayModel;
+	//NSString* programDay;
 }
+
+//@property(nonatomic,copy) NSString* ProgramDay;
 
 @end

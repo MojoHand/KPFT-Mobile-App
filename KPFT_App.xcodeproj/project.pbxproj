@@ -17,6 +17,7 @@
 		D8860660117AD92900DBD669 /* ScheduleDayController.m in Sources */ = {isa = PBXBuildFile; fileRef = D886065F117AD92900DBD669 /* ScheduleDayController.m */; };
 		D8860692117ADD8600DBD669 /* ScheduleDayDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D8860691117ADD8600DBD669 /* ScheduleDayDataSource.m */; };
 		D8860697117ADDDB00DBD669 /* ScheduleDayModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D8860696117ADDDB00DBD669 /* ScheduleDayModel.m */; };
+		D88609B6117EA20F00DBD669 /* ShowInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = D88609B5117EA20F00DBD669 /* ShowInfo.m */; };
 		D886267B1145F962009A50F9 /* KPFT_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D886267A1145F962009A50F9 /* KPFT_Logo.png */; };
 		D886270411460383009A50F9 /* LauncherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D886270311460383009A50F9 /* LauncherViewController.m */; };
 		D8862737114606B8009A50F9 /* rss.png in Resources */ = {isa = PBXBuildFile; fileRef = D8862736114606B8009A50F9 /* rss.png */; };
@@ -90,7 +91,8 @@
 		D8860691117ADD8600DBD669 /* ScheduleDayDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScheduleDayDataSource.m; path = ProgramSchedule/ScheduleDayDataSource.m; sourceTree = "<group>"; };
 		D8860695117ADDDB00DBD669 /* ScheduleDayModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScheduleDayModel.h; path = ProgramSchedule/ScheduleDayModel.h; sourceTree = "<group>"; };
 		D8860696117ADDDB00DBD669 /* ScheduleDayModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScheduleDayModel.m; path = ProgramSchedule/ScheduleDayModel.m; sourceTree = "<group>"; };
-		D886097B117D87AE00DBD669 /* ShowInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowInfo.h; path = ProgramSchedule/ShowInfo.h; sourceTree = "<group>"; };
+		D88609B4117EA20F00DBD669 /* ShowInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ShowInfo.h; path = ProgramSchedule/ShowInfo.h; sourceTree = "<group>"; };
+		D88609B5117EA20F00DBD669 /* ShowInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ShowInfo.m; path = ProgramSchedule/ShowInfo.m; sourceTree = "<group>"; };
 		D886267A1145F962009A50F9 /* KPFT_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = KPFT_Logo.png; sourceTree = "<group>"; };
 		D886270211460383009A50F9 /* LauncherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LauncherViewController.h; sourceTree = "<group>"; };
 		D886270311460383009A50F9 /* LauncherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LauncherViewController.m; sourceTree = "<group>"; };
@@ -318,7 +320,8 @@
 				D8860691117ADD8600DBD669 /* ScheduleDayDataSource.m */,
 				D8860695117ADDDB00DBD669 /* ScheduleDayModel.h */,
 				D8860696117ADDDB00DBD669 /* ScheduleDayModel.m */,
-				D886097B117D87AE00DBD669 /* ShowInfo.h */,
+				D88609B4117EA20F00DBD669 /* ShowInfo.h */,
+				D88609B5117EA20F00DBD669 /* ShowInfo.m */,
 			);
 			name = ProgramSchedule;
 			sourceTree = "<group>";
@@ -444,6 +447,7 @@
 				D8860660117AD92900DBD669 /* ScheduleDayController.m in Sources */,
 				D8860692117ADD8600DBD669 /* ScheduleDayDataSource.m in Sources */,
 				D8860697117ADDDB00DBD669 /* ScheduleDayModel.m in Sources */,
+				D88609B6117EA20F00DBD669 /* ShowInfo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

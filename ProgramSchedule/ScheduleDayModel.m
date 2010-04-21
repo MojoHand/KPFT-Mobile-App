@@ -10,16 +10,28 @@
 #import "CXMLNode.h"
 #import "CXMLNode_XPathExtensions.h"
 #import "ScheduleDayModel.h"
-
+#import "ShowInfo.h"
 
 
 
 @implementation ScheduleDayModel
 
 @synthesize properties = _properties;
+@synthesize ProgramDay = programDay;
+
+//==================================================================================================
+
+- (id)initWithDay:(NSString*)ProgramDay
+{
+	if ( self = [super init] )
+	{
+		self.ProgramDay = ProgramDay;
+	}
+	
+	return self;
+}
 
 //=====================================================================================================
-
 
 - (void)load:(TTURLRequestCachePolicy)cachePolicy more:(BOOL)more 
 {
@@ -59,108 +71,43 @@
 	CXMLDocument *scheduleParser = [[[CXMLDocument alloc] initWithData:response.data options:0 error:nil] autorelease];
 	
 	// Create a new Array object to be used with the looping of the results from the rssParser
-    NSArray *resultNodes = NULL;
+    NSArray *titleNodes = NULL;
+	NSArray *startTimeNodes = NULL;
+	NSArray *endTimeNodes = NULL;
 	
-	// Set the resultNodes Array to contain an object for every instance of an  node in our RSS feed
-	resultNodes = [scheduleParser nodesForXPath:@"//Schedule/Sunday/show/title" error:nil];
+	NSString *titlePath = [NSString stringWithFormat:@"//Schedule/%@/show/title",self.ProgramDay];
+	NSString *startTimePath = [NSString stringWithFormat:@"//Schedule/%@/show/time/start",self.ProgramDay];
+	NSString *endTimePath = [NSString stringWithFormat:@"//Schedule/%@/show/time/end",self.ProgramDay];
 	
 	
-	for (CXMLElement *resultElement in resultNodes)
+	
+	titleNodes = [scheduleParser nodesForXPath:titlePath error:nil];
+	startTimeNodes = [scheduleParser nodesForXPath:startTimePath error:nil];
+	endTimeNodes = [scheduleParser nodesForXPath:endTimePath error:nil];
+	
+	ShowInfo *showInfo;
+	
+	for (int i = 0; i < [titleNodes count]; i++)
 	{
+		showInfo = [[ShowInfo alloc] init];
 		
-		//NSLog(@" resultElement: %@", resultElement);
-				
-		[_properties addObject:[resultElement stringValue]];
+		showInfo.ShowTitle = [[titleNodes objectAtIndex:i] stringValue];
+		showInfo.StartTime = [[startTimeNodes objectAtIndex:i] stringValue];
+		showInfo.EndTime = [[endTimeNodes objectAtIndex:i] stringValue];
+	
+		
+		[_properties addObject:showInfo];
 	}
-
-		
+	
 	[super requestDidFinishLoad:request];
 }
-
-//=====================================================================================================
-//
-//- (void)setActivePropertyKey:(NSString*)activePropertyKey
-//{
-//	NSString* keyCopy = [activePropertyKey copy];
-//	[_activePropertyKey release];
-//	_activePropertyKey = keyCopy;
-//	
-//}
-//
-////=====================================================================================================
-//
-//- (void)parser:          (NSXMLParser*)parser
-//didStartElement: (NSString*)elementName
-//  namespaceURI: (NSString*)namespaceURI
-// qualifiedName: (NSString*)qName
-//	attributes: (NSDictionary*)attributeDict 
-//{
-//	
-//	[self setActivePropertyKey: elementName];
-//	
-//}
-//
-////=====================================================================================================
-//
-//- (void)parser:(NSXMLParser *)parser foundCharacters:(NSString *)string 
-//{
-//	if( nil != _activePropertyKey ) 
-//	{
-//		NSString* property = [_properties objectForKey:_activePropertyKey];
-//		if( nil == property ) 
-//		{
-//			property = [[NSString alloc] init];
-//			[_properties setObject:property forKey:_activePropertyKey];
-//			[property release];
-//		}
-//		
-//		[_properties setObject: [property stringByAppendingString:string]
-//						forKey: _activePropertyKey];
-//	}
-//}
-//
-////=====================================================================================================
-//
-//- (void)parser:        (NSXMLParser *)parser
-// didEndElement: (NSString *)elementName
-//  namespaceURI: (NSString *)namespaceURI
-// qualifiedName: (NSString *)qName 
-//{
-//	if( nil != _activePropertyKey )
-//	{
-//		//if( [_activePropertyType isEqualToString:@"integer"] ) 
-//		//{
-//		//	NSString* property = [_properties objectForKey:_activePropertyKey];
-//		//			[_properties setObject: [NSNumber numberWithInt:[property intValue]]
-//		//							forKey: _activePropertyKey];
-//		
-//		//[_properties setValue:[NSNumber numberWithInt:42]   forKey: _activePropertyKey];
-//		
-//		//}
-//		//else if( [_activePropertyType isEqualToString:@"datetime"] ) 
-//		//		{
-//		//			NSString* property = [_properties objectForKey:_activePropertyKey];
-//		//			
-//		//			NSDateFormatter* dateFormatter = [[NSDateFormatter alloc] init];
-//		//			[dateFormatter setTimeStyle:NSDateFormatterFullStyle];
-//		//			[dateFormatter setDateFormat:@"yyyy-MM-dd'T'HH:mm:ssZZZZ"];
-//		//			
-//		//			NSDate* date = [dateFormatter dateFromString:property];
-//		//			TT_RELEASE_SAFELY(dateFormatter);
-//		//			
-//		//			[_properties setObject:date forKey:_activePropertyKey];
-//		//		}
-//	}
-//	
-//	[self setActivePropertyKey:nil];
-//}
 
 //=====================================================================================================
 
 -(void)dealloc
 {	
 	TT_RELEASE_SAFELY(_properties);
-	TT_RELEASE_SAFELY(_activePropertyKey);
+	//TT_RELEASE_SAFELY(_activePropertyKey);
 	
 	[super dealloc];
 }

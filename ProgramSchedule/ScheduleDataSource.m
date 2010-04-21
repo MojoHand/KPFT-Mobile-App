@@ -49,13 +49,13 @@
 	
 	
 	//[items addObject:@"Sunday"];
-	[items addObject:[TTTableTextItem itemWithText:@"Sunday" ]];
-	[items addObject:[TTTableTextItem itemWithText:@"Monday"]];
-	[items addObject:[TTTableTextItem itemWithText:@"Tuesday"]];
-	[items addObject:[TTTableTextItem itemWithText:@"Wednesday"]];
-	[items addObject:[TTTableTextItem itemWithText:@"Thursday"]];
-	[items addObject:[TTTableTextItem itemWithText:@"Friday"]];
-	[items addObject:[TTTableTextItem itemWithText:@"Saturday"]];
+	[items addObject:[TTTableTextItem itemWithText:@"Sunday" URL:@"kpft://programSchedule/Sunday" ]];
+	[items addObject:[TTTableTextItem itemWithText:@"Monday" URL:@"kpft://programSchedule/Monday" ]];
+	[items addObject:[TTTableTextItem itemWithText:@"Tuesday" URL:@"kpft://programSchedule/Tuesday" ]];
+	[items addObject:[TTTableTextItem itemWithText:@"Wednesday" URL:@"kpft://programSchedule/Wednesday" ]];
+	[items addObject:[TTTableTextItem itemWithText:@"Thursday" URL:@"kpft://programSchedule/Thursday" ]];
+	[items addObject:[TTTableTextItem itemWithText:@"Friday" URL:@"kpft://programSchedule/Friday" ]];
+	[items addObject:[TTTableTextItem itemWithText:@"Saturday" URL:@"kpft://programSchedule/Saturday" ]];
 	
 	//[items addObject:itemRows];
     

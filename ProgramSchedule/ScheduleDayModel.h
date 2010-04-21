@@ -11,10 +11,10 @@
 @interface ScheduleDayModel : TTURLRequestModel
 {
 	NSMutableArray*  _properties;
-	NSString*        _activePropertyKey;
-	//	NSString*             _activePropertyType;	
+	NSString* programDay;
 }
 
+@property (nonatomic, copy) NSString* ProgramDay;
 @property (nonatomic, readonly) NSMutableArray*  properties;
 
 @end

@@ -5,10 +5,20 @@
 //  Created by Nathan King of Mojo Hand Development
 //
 
+#import <Foundation/Foundation.h>
 
-typedef struct showInfo
+
+@interface ShowInfo : NSObject 
 {
-	NSString *title;
+	NSString *showTitle;
 	NSString *startTime;
-	NSString *endtime;
-} ShowInfo;
+	NSString *endTime;
+}
+
+@property (nonatomic, copy) NSString*  ShowTitle;
+@property (nonatomic, copy) NSString*  StartTime;
+@property (nonatomic, copy) NSString*  EndTime;
+
+
+
+@end
