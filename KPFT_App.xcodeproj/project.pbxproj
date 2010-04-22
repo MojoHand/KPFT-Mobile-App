@@ -76,7 +76,7 @@
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1D6058910D05DD3D006BFB54 /* KPFT_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KPFT_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6058910D05DD3D006BFB54 /* KPFT 90.1FM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KPFT 90.1FM.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -174,7 +174,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1D6058910D05DD3D006BFB54 /* KPFT_App.app */,
+				1D6058910D05DD3D006BFB54 /* KPFT 90.1FM.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -353,7 +353,7 @@
 			);
 			name = KPFT_App;
 			productName = KPFT_App;
-			productReference = 1D6058910D05DD3D006BFB54 /* KPFT_App.app */;
+			productReference = 1D6058910D05DD3D006BFB54 /* KPFT 90.1FM.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -482,7 +482,7 @@
 					"-ObjC",
 					"-lxml2",
 				);
-				PRODUCT_NAME = KPFT_App;
+				PRODUCT_NAME = "KPFT 90.1FM";
 			};
 			name = Debug;
 		};
@@ -503,7 +503,7 @@
 					"-ObjC",
 					"-lxml2",
 				);
-				PRODUCT_NAME = KPFT_App;
+				PRODUCT_NAME = "KPFT 90.1FM";
 			};
 			name = Release;
 		};
@@ -518,6 +518,7 @@
 				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
 				OTHER_LDFLAGS = "-lxml2";
 				PREBINDING = NO;
+				PRODUCT_NAME = "KPFT 90.1FM";
 				SDKROOT = iphonesimulator3.1.3;
 			};
 			name = Debug;
@@ -533,6 +534,7 @@
 				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
 				OTHER_LDFLAGS = "-lxml2";
 				PREBINDING = NO;
+				PRODUCT_NAME = "KPFT 90.1FM";
 				SDKROOT = iphonesimulator3.1.3;
 			};
 			name = Release;
@@ -548,7 +550,7 @@
 				HEADER_SEARCH_PATHS = "/usr/include/libxml2/**";
 				OTHER_LDFLAGS = "-lxml2";
 				PREBINDING = NO;
-				PRODUCT_NAME = KPFT_App;
+				PRODUCT_NAME = "KPFT 90.1FM";
 				SDKROOT = iphonesimulator3.1.3;
 			};
 			name = Distribution;
@@ -571,7 +573,7 @@
 					"-ObjC",
 					"-lxml2",
 				);
-				PRODUCT_NAME = KPFT_App;
+				PRODUCT_NAME = "KPFT 90.1FM";
 			};
 			name = Distribution;
 		};

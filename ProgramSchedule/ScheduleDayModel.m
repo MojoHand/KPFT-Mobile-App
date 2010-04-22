@@ -37,7 +37,7 @@
 {
 	if( !self.isLoading ) 
 	{
-		NSString* url = @"http://mojohanddev.com/ProgramSchedule.xml";
+		NSString* url = @"http://www.kpft.org/documents/ProgramSchedule.xml";
 		
 		TTURLRequest* request = [TTURLRequest
 								 requestWithURL: url
