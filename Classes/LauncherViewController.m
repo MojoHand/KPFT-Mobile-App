@@ -57,15 +57,16 @@
 														 canDelete:NO] autorelease],
 							[[[TTLauncherItem alloc] initWithTitle:@"Live Feed"
 															 image:@"bundle://30x-Music.png"
-															   URL:@"http://kpft.org/streamkpft.m3u" 
+															   //URL:@"http://kpft.org/streamkpft.m3u" 
+     															 URL:@"http://stream.kpft.org:8000/live" 
 														 canDelete:NO] autorelease],
 							[[[TTLauncherItem alloc] initWithTitle:@"HD-1 Feed"
 															 image:@"bundle://30x-Music.png"
-															   URL:@"http://kpft.org/streamkpft_64.m3u" 
+															   URL:@"http://stream.kpft.org:8000/live_64" 
 														 canDelete:NO] autorelease],
 							[[[TTLauncherItem alloc] initWithTitle:@"HD-2 Feed"
 															 image:@"bundle://30x-Music.png"
-															   URL:@"http://kpft.org/kpftHD2.m3u" 
+															   URL:@"http://stream.kpft.org:8000/HD2" 
 														 canDelete:NO] autorelease],
 							[[[TTLauncherItem alloc] init] autorelease], //blank 1
 							[[[TTLauncherItem alloc] init] autorelease], //blank 2
